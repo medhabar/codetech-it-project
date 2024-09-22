@@ -1,7 +1,6 @@
 import tkinter as tk
 from tkinter import messagebox
 
-# Function to calculate BMI
 def calculate_bmi():
     try:
         height = float(height_entry.get()) / 100  # Convert height to meters
@@ -22,11 +21,9 @@ def calculate_bmi():
     except ValueError:
         messagebox.showerror("Input error", "Please enter valid numbers.")
 
-# Create the main window
 root = tk.Tk()
 root.title("BMI Tracker")
 
-# Create and place the labels, entries, and buttons
 tk.Label(root, text="Enter your height (cm):").grid(row=0, column=0, padx=10, pady=10)
 height_entry = tk.Entry(root)
 height_entry.grid(row=0, column=1)
@@ -41,5 +38,4 @@ calculate_button.grid(row=2, columnspan=2, pady=10)
 result_label = tk.Label(root, text="BMI: ")
 result_label.grid(row=3, columnspan=2)
 
-# Start the main loop
 root.mainloop()
