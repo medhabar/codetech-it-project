@@ -1,5 +1,5 @@
 Name: MEDHA BAR
-Company: CODETECH IT SOLUTIONS
+Company: CODTECH IT SOLUTIONS
 ID: CT04DS7512
 Domain: Machine Learning
 Mentor: Neela Santhosh Kumar
